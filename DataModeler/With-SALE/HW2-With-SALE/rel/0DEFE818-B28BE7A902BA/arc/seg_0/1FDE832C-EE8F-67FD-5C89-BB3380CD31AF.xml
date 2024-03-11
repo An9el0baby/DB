@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="1FDE832C-EE8F-67FD-5C89-BB3380CD31AF" name="FKArc_5">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 16:56:15 UTC</createdTime>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<mandatory>true</mandatory>
+<reverseArc>true</reverseArc>
+<table>566EE83D-C852-BFEF-3FF0-0F3D8815E709</table>
+<discriminatorColumn>B2D40CD2-9E0C-5F2D-51CB-9B30F68685C4</discriminatorColumn>
+<fkeys>
+<fkeyID>3B87930D-24D5-78D0-BEDF-7908DA4F8DB2</fkeyID>
+<fkeyID>F0067EA6-64AF-3114-5306-927DB26727B6</fkeyID>
+<fkeyID>EBE2ACCE-8862-8351-E75B-66327C1C1414</fkeyID>
+</fkeys>
+</FKArc>

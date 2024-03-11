@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3EC700E1-B9BC-E9E4-2ADC-CFD99311018E" name="AW_TRANSACTION">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 16:56:15 UTC</createdTime>
+<generatorID>60E63F53-6C1C-D091-E3C1-918EF57C204A</generatorID>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Transaction_id" id="8D71BCB9-EEC0-4438-6C6C-45C48DB62203">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 16:56:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[The unique transaction id.]]></commentInRDBMS>
+<generatorID>D4ED43C6-0ABB-2FF6-22F4-139B9AA51E2C</generatorID>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Transaction_type" id="91A474E6-FBD2-50E7-4DF5-3D98A52432E5">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 16:56:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[Transaction type: S(ale) or P(urchase)]]></commentInRDBMS>
+<generatorID>4FDE814A-3479-9C6B-6349-AF5C4992F0E5</generatorID>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<constraintName>CH_INH_AW_TRANSACTION</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<listOfValues>
+<valueDef value="A" description="entity AW_APARTMENT"/>
+<valueDef value="C" description="entity AW_CONDO"/>
+<valueDef value="P" description="entity AW_PURCHASE"/>
+<valueDef value="T" description="entity AW_TOWNHOUSE"/>
+</listOfValues>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isDiscriminatorColumn>true</isDiscriminatorColumn>
+</Column>
+<Column name="Transaction_date" id="308C5D96-AF49-9002-27FE-9852076DF96C">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 16:56:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[The date of transaction.]]></commentInRDBMS>
+<generatorID>02AEBECB-D8C8-0F47-C1D2-B34ED5ABA27B</generatorID>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Transaction_amount" id="4B7AD832-CA98-7E6A-52AA-F9E2BDE8F16C">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 16:56:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[The amount of transaction in USD.]]></commentInRDBMS>
+<generatorID>6822A1D1-017F-8AA3-EDEE-B51D5D3CDC9E</generatorID>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>32</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,32,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Customer_id" id="674DD155-A401-2E4D-5E3C-401BD0EEA485">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 16:56:15 UTC</createdTime>
+<generatorID>F9D1575A-187C-550A-3761-F7B8501D12EE</generatorID>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="580DFE5B-0709-CF5A-43AD-2670F972CA60" referredColumn="E434A1D5-95D4-FD49-E260-18C3A49F81F7"/>
+</associations>
+</Column>
+<Column name="Property_id" id="73F4BFF1-520C-8400-AC7B-EA1DDA4C81D3">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 16:56:15 UTC</createdTime>
+<generatorID>C67A8CE9-3168-0304-09C4-4F088060E36D</generatorID>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E4DD867D-516B-5A13-72FA-07DA4DD35709" referredColumn="8414FC6C-E8F7-2106-4164-841D7FB6B5C4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ECB5F4D9-C5B1-D978-C568-ACED137E6297" name="AW_TRANSACTION_PK">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 16:56:15 UTC</createdTime>
+<generatorID>D25A4963-7945-DA65-C115-06C9ACBC2820</generatorID>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D71BCB9-EEC0-4438-6C6C-45C48DB62203"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4D7E4656-3AA6-6ED4-5E80-C4C2312E881D" name="CUSTOMER_FKv3">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 16:56:15 UTC</createdTime>
+<generatorID>5E3AC2E3-0C46-23B5-C985-49694BF7E41B</generatorID>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="674DD155-A401-2E4D-5E3C-401BD0EEA485"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FE26918D-847A-BD75-6028-C51D8F58FAF9" name="PROPERTY_FK">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 16:56:15 UTC</createdTime>
+<generatorID>32CA7979-8153-F162-310F-FAA04EEF989C</generatorID>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73F4BFF1-520C-8400-AC7B-EA1DDA4C81D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

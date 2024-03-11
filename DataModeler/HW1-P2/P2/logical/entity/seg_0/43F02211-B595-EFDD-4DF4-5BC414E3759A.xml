@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="43F02211-B595-EFDD-4DF4-5BC414E3759A" name="AW_EVENT">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 14:42:47 UTC</createdTime>
+<ownerDesignName>P2</ownerDesignName>
+<engineerTo>
+<item key="ECF5423C-247B-AA1B-73B4-CBC074BCFC69" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Event_id" id="68B531EA-9EDC-B574-8D90-51868CEF17F8">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 14:42:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[The unique flight event id.]]></commentInRDBMS>
+<ownerDesignName>P2</ownerDesignName>
+<engineerTo>
+<item key="ECF5423C-247B-AA1B-73B4-CBC074BCFC69" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dept_date" id="6A4F4605-435B-B252-D406-D8C86705F67E">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 14:48:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[The departure date.]]></commentInRDBMS>
+<ownerDesignName>P2</ownerDesignName>
+<engineerTo>
+<item key="ECF5423C-247B-AA1B-73B4-CBC074BCFC69" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Arrv_date" id="1984AE9B-6FD0-1254-AF2F-1B4ED3E1C7E3">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 14:49:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[The arriving date.]]></commentInRDBMS>
+<ownerDesignName>P2</ownerDesignName>
+<engineerTo>
+<item key="ECF5423C-247B-AA1B-73B4-CBC074BCFC69" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Boarding_time" id="BB2A05C1-3EAF-D41C-E70D-1E46F1B089C7">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 14:49:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[The boarding time for the flight event.]]></commentInRDBMS>
+<ownerDesignName>P2</ownerDesignName>
+<engineerTo>
+<item key="ECF5423C-247B-AA1B-73B4-CBC074BCFC69" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Arrv_time" id="2E19C556-CBE1-A1D6-5C19-471DB4A0F1BC">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 14:50:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[The estimated arriving time]]></commentInRDBMS>
+<ownerDesignName>P2</ownerDesignName>
+<engineerTo>
+<item key="ECF5423C-247B-AA1B-73B4-CBC074BCFC69" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Bd_terminal" id="869CEA55-C1DB-A78A-EAA6-6A53A194D74C">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 14:51:13 UTC</createdTime>
+<commentInRDBMS><![CDATA[The boarding terminal for the flight event.]]></commentInRDBMS>
+<ownerDesignName>P2</ownerDesignName>
+<engineerTo>
+<item key="ECF5423C-247B-AA1B-73B4-CBC074BCFC69" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Gate" id="655D79CA-435F-7A70-4A1D-5646F3542223">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 14:50:46 UTC</createdTime>
+<commentInRDBMS><![CDATA[The boarding gate of the flight event.]]></commentInRDBMS>
+<ownerDesignName>P2</ownerDesignName>
+<engineerTo>
+<item key="ECF5423C-247B-AA1B-73B4-CBC074BCFC69" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Flight_id" id="6629B910-BF74-B2FE-F673-B00B377C3BAB">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 14:54:32 UTC</createdTime>
+<generatorID>CD4D1CEF-1AE6-42D6-7729-01D0C54C93D5</generatorID>
+<ownerDesignName>P2</ownerDesignName>
+<engineerTo>
+<item key="ECF5423C-247B-AA1B-73B4-CBC074BCFC69" value="true"/>
+</engineerTo>
+<referedAttribute>32EE8842-B338-2055-E2DA-A6A598F5A884</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2883625C-03C2-FF06-971B-C73E9450B9C5" name="AW_EVENT PK">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 14:43:09 UTC</createdTime>
+<ownerDesignName>P2</ownerDesignName>
+<engineerTo>
+<item key="ECF5423C-247B-AA1B-73B4-CBC074BCFC69" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>68B531EA-9EDC-B574-8D90-51868CEF17F8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

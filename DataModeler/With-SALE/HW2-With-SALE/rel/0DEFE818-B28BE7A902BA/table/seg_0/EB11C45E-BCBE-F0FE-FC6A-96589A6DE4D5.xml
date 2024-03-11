@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EB11C45E-BCBE-F0FE-FC6A-96589A6DE4D5" name="AW_AGENT">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 16:56:15 UTC</createdTime>
+<generatorID>4A21D359-FBE0-2203-BE46-60689D8466CC</generatorID>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Agent_id" id="08978C01-89A5-DD0A-CB5D-10830EC06F25">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 16:56:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[The unqiue agent id.]]></commentInRDBMS>
+<generatorID>B4DE5AC1-A7A0-DF1D-AC94-77C66F55E384</generatorID>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Agent_fname" id="A8D0F6D8-F516-C0E7-4104-9E2EDE464F70">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 16:56:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[The first name of agent.]]></commentInRDBMS>
+<generatorID>5390E02A-1A2A-DA6E-8676-A877EA0D3304</generatorID>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Agent_lname" id="498881FA-4D44-6AD6-9E96-A86EA38A3CCE">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 16:56:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[The last name of the agent.]]></commentInRDBMS>
+<generatorID>4D377411-29F2-71ED-11B6-23D286912F26</generatorID>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="12BC4106-1CDC-6E54-F07D-E99B6FEAA5A5" name="AW_AGENT_PK">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 16:56:15 UTC</createdTime>
+<generatorID>084AF582-F498-BD35-DCE5-51357CC09B14</generatorID>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08978C01-89A5-DD0A-CB5D-10830EC06F25"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

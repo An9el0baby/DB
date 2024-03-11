@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A3C4B502-C460-B074-5D77-DA2AA0EF4728" name="AW_AIRPORT">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 15:36:19 UTC</createdTime>
+<generatorID>B108C6CD-75B1-51AF-C1AD-FF6ED73FE9C4</generatorID>
+<ownerDesignName>P2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Airport_Code" id="0C7C5F95-B84C-E4C4-64FE-27C841DB6104">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 15:36:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[Unique airport code in US.]]></commentInRDBMS>
+<generatorID>28BD42FC-2165-580E-6787-A845AA6F2863</generatorID>
+<ownerDesignName>P2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="State" id="1C0AE587-D900-A035-6294-155BCD6B6586">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 15:36:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[The state of Airport address.]]></commentInRDBMS>
+<generatorID>B19F7C20-BF95-9EBF-DED1-9D7140172F4B</generatorID>
+<ownerDesignName>P2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="City" id="BDDDC7D1-84E7-87AB-47E4-F93E856301E9">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 15:36:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[The city of airport address]]></commentInRDBMS>
+<generatorID>4E6B1500-D96E-9E70-7F58-40B5CDE94662</generatorID>
+<ownerDesignName>P2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zipcode" id="D5EC3DFD-9682-DDAB-D3A8-B766FD58DDEF">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 15:36:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[The zipcode of airport address.]]></commentInRDBMS>
+<generatorID>0A4ACDAC-2DAD-67E9-7D11-025FDC6F4F5A</generatorID>
+<ownerDesignName>P2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Address" id="E34B95CD-315D-DB39-916E-D88AB00D7C92">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 15:36:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[The detailed address of airport address.]]></commentInRDBMS>
+<generatorID>D65F8843-1EC8-7BAD-1F08-97BD21064B00</generatorID>
+<ownerDesignName>P2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="53F41AB8-3F15-51AD-D745-F7E00CC345FE" name="AW_AIRPORT_PK">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 15:36:19 UTC</createdTime>
+<generatorID>B0987C24-D850-3894-A95E-2AF7B58C1EEC</generatorID>
+<ownerDesignName>P2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C7C5F95-B84C-E4C4-64FE-27C841DB6104"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

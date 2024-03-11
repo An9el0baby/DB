@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CABF49AE-9B43-AB41-0001-427514AC974F" containerWithKeyObject="566EE83D-C852-BFEF-3FF0-0F3D8815E709" localFKIndex="5CAE83A2-3F05-7544-9B75-3B1D7EBDED82" name="AGENT_FK">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 16:56:15 UTC</createdTime>
+<generatorID>8D5E9056-FCB3-11B4-CA7A-4ED648BF0E63</generatorID>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<referredTableLongName>AW_AGENT</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EB11C45E-BCBE-F0FE-FC6A-96589A6DE4D5</referredTableID>
+<keyObject>12BC4106-1CDC-6E54-F07D-E99B6FEAA5A5</keyObject>
+<referredKeyID>12BC4106-1CDC-6E54-F07D-E99B6FEAA5A5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Agent_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

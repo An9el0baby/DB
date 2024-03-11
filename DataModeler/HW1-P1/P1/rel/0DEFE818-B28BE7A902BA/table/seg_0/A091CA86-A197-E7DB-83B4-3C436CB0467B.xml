@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A091CA86-A197-E7DB-83B4-3C436CB0467B" name="AW_CUSTOMER">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-05 22:24:00 UTC</createdTime>
+<generatorID>6275853C-0E45-0A8F-B7B6-AF19CC4735DD</generatorID>
+<ownerDesignName>P1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Customer_id" id="C3D0360C-76B0-91DB-DB8B-FBFA0C3A34E1">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-05 22:24:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[Unique Customer ID]]></commentInRDBMS>
+<generatorID>C985968B-9C4A-4155-CDA9-5D24F1987FA2</generatorID>
+<ownerDesignName>P1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Customer_type" id="C234F8C3-4FAF-FBF2-59F2-AD7E5EA10C79">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-05 22:24:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[Customer type, Corportate or Individual]]></commentInRDBMS>
+<generatorID>87C6E283-E95B-3508-90E5-28725B3AC9C1</generatorID>
+<ownerDesignName>P1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="State" id="F4879608-5E89-48B5-2FB4-C67652BE533C">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-05 22:24:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[The state of the customer address]]></commentInRDBMS>
+<generatorID>0E0CBBF7-1171-2DBE-34F2-49A0C93EA30F</generatorID>
+<ownerDesignName>P1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="City" id="7E62C90B-B67E-E2E8-9888-D87360F903F1">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-05 22:24:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[The city of customer address.]]></commentInRDBMS>
+<generatorID>E7D91E7D-959C-3216-2094-194FF8141E3F</generatorID>
+<ownerDesignName>P1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Address" id="BEDF3755-5ED8-F7B2-5D22-CBD35C76A085">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-05 22:24:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[The detailed address of customer.]]></commentInRDBMS>
+<generatorID>E3D53376-508D-C82B-B8FC-319CB3A656FE</generatorID>
+<ownerDesignName>P1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zipcode" id="5E43C526-F0DA-B1BB-1EC8-3249C286C4E5">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-05 22:24:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[The zipcode of the customer address.]]></commentInRDBMS>
+<generatorID>35D5BE6F-04EA-D383-BC2A-F2E94ADD7483</generatorID>
+<ownerDesignName>P1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="First_name" id="24048484-7E85-8A20-DF79-0B43474F3B80">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-05 22:24:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[First name of the cusomer, if customer is Individual]]></commentInRDBMS>
+<generatorID>5E47E6B5-1B57-9D3F-7578-A491B31F0166</generatorID>
+<ownerDesignName>P1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Last_name" id="74048147-D5AA-F892-71B7-8446985181FD">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-05 22:24:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[Last name of the cusomer, if customer is Individual]]></commentInRDBMS>
+<generatorID>07B61A97-08CA-C046-4C3D-397F156922D4</generatorID>
+<ownerDesignName>P1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Company_name" id="0D74961C-BE32-4E79-9F24-8721139F15DC">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-05 22:24:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[Company Name of customer, if customer is Corporate.]]></commentInRDBMS>
+<generatorID>6089BF5A-3886-7938-3AA4-73920A571856</generatorID>
+<ownerDesignName>P1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C23CA4CB-C50B-5A5E-7042-145E66DAF19B" name="AW_CUSTOMER_PK">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-05 22:24:00 UTC</createdTime>
+<generatorID>E37A780D-40D7-E0A8-7B5E-353DBBF8C262</generatorID>
+<ownerDesignName>P1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3D0360C-76B0-91DB-DB8B-FBFA0C3A34E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

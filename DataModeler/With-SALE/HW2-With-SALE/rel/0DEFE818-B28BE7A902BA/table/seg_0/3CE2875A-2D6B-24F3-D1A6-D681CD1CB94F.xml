@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3CE2875A-2D6B-24F3-D1A6-D681CD1CB94F" name="AW_CUSTOMER">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 16:56:15 UTC</createdTime>
+<generatorID>6275853C-0E45-0A8F-B7B6-AF19CC4735DD</generatorID>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Customer_id" id="E434A1D5-95D4-FD49-E260-18C3A49F81F7">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 16:56:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[Unique Customer ID]]></commentInRDBMS>
+<generatorID>C985968B-9C4A-4155-CDA9-5D24F1987FA2</generatorID>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="State" id="F55C15FD-DD08-FEF3-51F5-606CFDF9F9CC">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 16:56:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[The state of the customer address]]></commentInRDBMS>
+<generatorID>0E0CBBF7-1171-2DBE-34F2-49A0C93EA30F</generatorID>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="City" id="87B51607-A57A-8039-9690-291756DFFF8A">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 16:56:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[The city of customer address.]]></commentInRDBMS>
+<generatorID>E7D91E7D-959C-3216-2094-194FF8141E3F</generatorID>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Address" id="0AF4DD79-2B10-4B44-D112-055DE667518F">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 16:56:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[The detailed address of customer.]]></commentInRDBMS>
+<generatorID>E3D53376-508D-C82B-B8FC-319CB3A656FE</generatorID>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zipcode" id="75751774-A1AF-DD0C-B2D2-BB76298C6E4E">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 16:56:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[The zipcode of the customer address.]]></commentInRDBMS>
+<generatorID>35D5BE6F-04EA-D383-BC2A-F2E94ADD7483</generatorID>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Customer_type" id="40467075-5BEF-D3A5-14BE-8DADCFAC8378">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 16:56:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[Customer type, C(orportate) or I(ndividual)]]></commentInRDBMS>
+<generatorID>87C6E283-E95B-3508-90E5-28725B3AC9C1</generatorID>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<constraintName>CH_INH_AW_CUSTOMER</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<listOfValues>
+<valueDef value="AW_CORPORATE" description="entity AW_CORPORATE"/>
+<valueDef value="AW_INDIVIDUAL" description="entity AW_INDIVIDUAL"/>
+</listOfValues>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isDiscriminatorColumn>true</isDiscriminatorColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="84728D23-C760-9770-6C7C-F5EF9FD8E60C" name="AW_CUSTOMER_PK">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 16:56:15 UTC</createdTime>
+<generatorID>E37A780D-40D7-E0A8-7B5E-353DBBF8C262</generatorID>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E434A1D5-95D4-FD49-E260-18C3A49F81F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

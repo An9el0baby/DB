@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B108C6CD-75B1-51AF-C1AD-FF6ED73FE9C4" name="AW_AIRPORT">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-03 02:02:14 UTC</createdTime>
+<ownerDesignName>P2</ownerDesignName>
+<engineerTo>
+<item key="ECF5423C-247B-AA1B-73B4-CBC074BCFC69" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Airport_Code" id="28BD42FC-2165-580E-6787-A845AA6F2863">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-03 02:13:13 UTC</createdTime>
+<commentInRDBMS><![CDATA[Unique airport code in US.]]></commentInRDBMS>
+<ownerDesignName>P2</ownerDesignName>
+<engineerTo>
+<item key="ECF5423C-247B-AA1B-73B4-CBC074BCFC69" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="State" id="B19F7C20-BF95-9EBF-DED1-9D7140172F4B">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-03 02:15:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[The state of Airport address.]]></commentInRDBMS>
+<ownerDesignName>P2</ownerDesignName>
+<engineerTo>
+<item key="ECF5423C-247B-AA1B-73B4-CBC074BCFC69" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="City" id="4E6B1500-D96E-9E70-7F58-40B5CDE94662">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-03 02:16:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[The city of airport address]]></commentInRDBMS>
+<ownerDesignName>P2</ownerDesignName>
+<engineerTo>
+<item key="ECF5423C-247B-AA1B-73B4-CBC074BCFC69" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Zipcode" id="0A4ACDAC-2DAD-67E9-7D11-025FDC6F4F5A">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-03 02:16:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[The zipcode of airport address.]]></commentInRDBMS>
+<ownerDesignName>P2</ownerDesignName>
+<engineerTo>
+<item key="ECF5423C-247B-AA1B-73B4-CBC074BCFC69" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Address" id="D65F8843-1EC8-7BAD-1F08-97BD21064B00">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-03 02:14:33 UTC</createdTime>
+<commentInRDBMS><![CDATA[The detailed address of airport address.]]></commentInRDBMS>
+<ownerDesignName>P2</ownerDesignName>
+<engineerTo>
+<item key="ECF5423C-247B-AA1B-73B4-CBC074BCFC69" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B0987C24-D850-3894-A95E-2AF7B58C1EEC" name="AW_AIRPORT PK">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-03 02:14:06 UTC</createdTime>
+<ownerDesignName>P2</ownerDesignName>
+<engineerTo>
+<item key="ECF5423C-247B-AA1B-73B4-CBC074BCFC69" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>28BD42FC-2165-580E-6787-A845AA6F2863</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

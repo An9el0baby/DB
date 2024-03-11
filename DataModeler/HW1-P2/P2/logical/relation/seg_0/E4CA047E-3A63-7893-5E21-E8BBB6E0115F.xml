@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_EVENT_PAX" directorySegmentName="seg_0" id="E4CA047E-3A63-7893-5E21-E8BBB6E0115F">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 14:57:10 UTC</createdTime>
+<ownerDesignName>P2</ownerDesignName>
+<engineerTo>
+<item key="ECF5423C-247B-AA1B-73B4-CBC074BCFC69" value="true"/>
+</engineerTo>
+<sourcePk>2883625C-03C2-FF06-971B-C73E9450B9C5</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>43F02211-B595-EFDD-4DF4-5BC414E3759A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3DE79FB7-743C-14E9-0E30-B49239A79E4B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

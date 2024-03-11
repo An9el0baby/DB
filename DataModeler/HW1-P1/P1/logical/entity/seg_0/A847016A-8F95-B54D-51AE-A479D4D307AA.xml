@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A847016A-8F95-B54D-51AE-A479D4D307AA" name="AW_SALE">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 01:51:40 UTC</createdTime>
+<ownerDesignName>P1</ownerDesignName>
+<engineerTo>
+<item key="0DEFE818-B138-EC98-E57E-B28BE7A902BA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>60E63F53-6C1C-D091-E3C1-918EF57C204A</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<discriminatorValue>S</discriminatorValue>
+<completeSubtypes>true</completeSubtypes>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Agent_fees" id="6BDCC1E3-47F8-B5CC-5C15-4A7591FBA90E">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 01:51:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[The agent fee of the sale]]></commentInRDBMS>
+<ownerDesignName>P1</ownerDesignName>
+<engineerTo>
+<item key="0DEFE818-B138-EC98-E57E-B28BE7A902BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Agent_fname" id="1C24A25E-9E5B-191B-A2D4-243338D4BDEA">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 01:52:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[The first name of the agent]]></commentInRDBMS>
+<ownerDesignName>P1</ownerDesignName>
+<engineerTo>
+<item key="0DEFE818-B138-EC98-E57E-B28BE7A902BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Agent_lname" id="2A00A24E-5292-D2D5-E48A-7BB6D1DCCE42">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 01:52:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[The last name of the agent]]></commentInRDBMS>
+<ownerDesignName>P1</ownerDesignName>
+<engineerTo>
+<item key="0DEFE818-B138-EC98-E57E-B28BE7A902BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

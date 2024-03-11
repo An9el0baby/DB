@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="52D8AF9E-D398-4C22-A8F5-61474EF63105" name="AW_CHE_PROJ_EQUIP">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-25 16:46:14 UTC</createdTime>
+<generatorID>71260A41-DC9A-CE25-A05E-9B4A07147DAE</generatorID>
+<ownerDesignName>Midterm</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="F73DED4D-5D17-7A72-2149-AC982C23CE08">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-25 16:46:14 UTC</createdTime>
+<generatorID>1E090122-B150-C0F8-B77C-3DE11DB12BBF</generatorID>
+<ownerDesignName>Midterm</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ASSIGNED_DATE" id="991B6320-DD6A-5913-18A7-849EA45713CB">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-25 16:46:14 UTC</createdTime>
+<generatorID>FBC94F6E-01AD-41D8-5EA5-4BA368EF6419</generatorID>
+<ownerDesignName>Midterm</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SCHEDULED_DATE" id="1AE2667F-2F09-A027-BE8D-0FD655CAB43C">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-25 16:46:14 UTC</createdTime>
+<generatorID>0854DF51-9051-191E-CB47-FF73263F8B42</generatorID>
+<ownerDesignName>Midterm</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROJECT_ID" id="6E4699F5-BAA0-1E5E-19DD-EE73DF6BAF49">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-25 16:46:14 UTC</createdTime>
+<generatorID>45B0136F-A227-2F68-C655-65560703DE04</generatorID>
+<ownerDesignName>Midterm</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6E0343AF-C6C1-7B09-C20E-59FB4CC2287C" referredColumn="C3A5A14B-743F-8ABB-61A1-98FB5862F7B8"/>
+</associations>
+</Column>
+<Column name="CHEMIST_ID" id="23FB4FE2-9EAD-2663-D33D-4C85FC136D8D">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-25 16:46:14 UTC</createdTime>
+<generatorID>ED9D6867-620E-0889-2BA6-8E0EB8EE9F2E</generatorID>
+<ownerDesignName>Midterm</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7CBA18AB-D933-3103-EA40-09CF773B94CD" referredColumn="828DC090-EB6B-C0AE-4877-800BC738184C"/>
+</associations>
+</Column>
+<Column name="EQUIPMENT_ID" id="9DF44545-0DA2-F693-EEE7-947D83E9DC1B">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-25 16:46:14 UTC</createdTime>
+<generatorID>57A3FCEE-D8BD-DF24-592A-392AEB6F8816</generatorID>
+<ownerDesignName>Midterm</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4EA895A4-7406-5F95-0BFF-2E8B0541DA05" referredColumn="5D8A57F6-D1D7-CB28-1456-EAF769027642"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E561EFE4-CD01-8488-4708-2ACD23D25E2D" name="AW_CHE_PROJ_EQUIP_PK">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-25 16:46:14 UTC</createdTime>
+<generatorID>4D94E79E-9441-E29A-E5B4-2C5FDC700B35</generatorID>
+<ownerDesignName>Midterm</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F73DED4D-5D17-7A72-2149-AC982C23CE08"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="16949E89-FCCB-A7D9-D74C-F0628B66AF6E" name="PROJECT_FK">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-25 16:46:14 UTC</createdTime>
+<generatorID>88727991-6272-FC52-38DC-85577C0006BA</generatorID>
+<ownerDesignName>Midterm</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E4699F5-BAA0-1E5E-19DD-EE73DF6BAF49"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9B77EDED-9F21-2EB7-626D-9CC6C39D44AE" name="CHEMIST_FK">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-25 16:46:14 UTC</createdTime>
+<generatorID>04FE84DC-F199-9648-C2F6-E92262CBC994</generatorID>
+<ownerDesignName>Midterm</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23FB4FE2-9EAD-2663-D33D-4C85FC136D8D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5E574BF0-D6B1-838D-810C-90BFB2DDC7F2" name="EQUIPMENT_FK">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-25 16:46:14 UTC</createdTime>
+<generatorID>5A17BE75-12E6-6D65-8178-EB54A2085EAC</generatorID>
+<ownerDesignName>Midterm</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9DF44545-0DA2-F693-EEE7-947D83E9DC1B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

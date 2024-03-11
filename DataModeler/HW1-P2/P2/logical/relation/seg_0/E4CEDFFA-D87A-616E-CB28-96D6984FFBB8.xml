@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_ARRVAIR_FLIGHT" directorySegmentName="seg_0" id="E4CEDFFA-D87A-616E-CB28-96D6984FFBB8">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 15:35:27 UTC</createdTime>
+<ownerDesignName>P2</ownerDesignName>
+<engineerTo>
+<item key="ECF5423C-247B-AA1B-73B4-CBC074BCFC69" value="true"/>
+</engineerTo>
+<sourcePk>B0987C24-D850-3894-A95E-2AF7B58C1EEC</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B108C6CD-75B1-51AF-C1AD-FF6ED73FE9C4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>10F5305E-F7F0-D33F-9395-11998ED58333</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

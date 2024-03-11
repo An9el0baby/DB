@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="14066D08-F688-79F8-6711-7A9B80967966" name="AW_PROPERTY">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 16:56:15 UTC</createdTime>
+<generatorID>C96CE1DA-A834-A391-8C01-43F03C46028C</generatorID>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Property_id" id="8414FC6C-E8F7-2106-4164-841D7FB6B5C4">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 16:56:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[Unique Property ID.]]></commentInRDBMS>
+<generatorID>E172EBC4-B525-06C3-99C8-989653463C8B</generatorID>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Built_Year" id="DF35019F-4BEB-6A95-2B8F-AC3F428DC295">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 16:56:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[The built year of the property.]]></commentInRDBMS>
+<generatorID>0ADCD64D-FE8F-F060-514F-0EEB3B099200</generatorID>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Price" id="39937EFE-376F-8E9C-61A1-C0829D8E0C3D">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 16:56:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[The price of the property in USD.]]></commentInRDBMS>
+<generatorID>59B6E7E3-F19D-7EC6-626C-22581763C020</generatorID>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>32</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,32,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="State" id="16CA0119-DE41-A89D-6F0F-F8E2761ECA90">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 16:56:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[The state of property address.]]></commentInRDBMS>
+<generatorID>D82E135D-78AE-F03F-C0D1-18C4EAD22F2D</generatorID>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="City" id="CCA79F0F-2527-661D-7663-441FD771A92D">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 16:56:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[The city of property address.]]></commentInRDBMS>
+<generatorID>0CA6A2AB-1EBB-B7AF-C030-9AE01E4DC2E6</generatorID>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Address" id="42A8E27D-226A-1574-0E4D-32DF8417B431">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 16:56:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[The detailed address of the property.]]></commentInRDBMS>
+<generatorID>99AF6DBA-5A17-14EF-7DF0-CDC75A7CCB14</generatorID>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zipcode" id="E779F3CD-5302-C047-6AEA-D865A3E7F832">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 16:56:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[The zipcode of the property address.]]></commentInRDBMS>
+<generatorID>967385A7-7197-D709-162E-A471DF5A04EE</generatorID>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Property_type_id" id="6B878210-D613-D17B-720D-90AA12C198D4">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 16:56:15 UTC</createdTime>
+<generatorID>153451C7-B050-4F13-F548-476A8725B109</generatorID>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1664D32C-20DA-A8FE-F3B9-5D40BC2A1CC6" referredColumn="6B7384C0-676B-2A87-9DA8-9055B4985E5C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1FC36713-B648-4D97-3A95-35E0785553E4" name="AW_PROPERTY_PK">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 16:56:15 UTC</createdTime>
+<generatorID>38091346-B56C-4838-3000-FABADE24D29D</generatorID>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8414FC6C-E8F7-2106-4164-841D7FB6B5C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CD7E3410-4DD4-BEC0-B4FB-FA818E9B2A83" name="PROP_TYPE_FK">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 16:56:15 UTC</createdTime>
+<generatorID>9F2619DB-7588-8CCA-2224-A9D68CCCFE37</generatorID>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B878210-D613-D17B-720D-90AA12C198D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Midterm" id="42E09248-D4BC-77E2-9432-8B6EB400BA97" version="3.5">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-25 14:15:47 UTC</createdTime>
+<ownerDesignName>Midterm</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>42E09248-D4BC-77E2-9432-8B6EB400BA97</designId>
+</OSDM_Design>

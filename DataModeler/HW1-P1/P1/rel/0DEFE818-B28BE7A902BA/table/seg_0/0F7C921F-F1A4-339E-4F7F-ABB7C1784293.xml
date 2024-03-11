@@ -1,0 +1,154 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0F7C921F-F1A4-339E-4F7F-ABB7C1784293" name="AW_PROPERTY">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-05 22:24:00 UTC</createdTime>
+<generatorID>C96CE1DA-A834-A391-8C01-43F03C46028C</generatorID>
+<ownerDesignName>P1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Property_id" id="CC592E9B-4E59-4B22-1CAB-FA4D1AC50C9C">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-05 22:24:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[Unique Property ID.]]></commentInRDBMS>
+<generatorID>E172EBC4-B525-06C3-99C8-989653463C8B</generatorID>
+<ownerDesignName>P1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Property_type" id="81766541-20FE-683F-D367-56E96F0FB0A1">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-05 22:24:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[The property type, Residitional or Commercial]]></commentInRDBMS>
+<generatorID>8883B802-67DD-4026-AA2D-4B4006FAA129</generatorID>
+<ownerDesignName>P1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Residents_type" id="0713EAF5-0641-3019-E232-443C6FE5DE68">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-05 22:24:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[The types of the residents, if property type is Resident
+Apartment,
+House,
+Condo,
+Single family
+Multi family
+Townhouse
+Mobile home
+Farm house
+]]></commentInRDBMS>
+<generatorID>30552E04-D525-9D44-5AF1-89F571EF7AF0</generatorID>
+<ownerDesignName>P1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Built_Year" id="21668964-30BF-CF35-E2AA-7D248E19FE62">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-05 22:24:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[The built year of the property.]]></commentInRDBMS>
+<generatorID>0ADCD64D-FE8F-F060-514F-0EEB3B099200</generatorID>
+<ownerDesignName>P1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Price" id="C04419F3-9D3D-C312-EDCA-4B1BC5F08E14">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-05 22:24:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[The price of the property in USD.]]></commentInRDBMS>
+<generatorID>59B6E7E3-F19D-7EC6-626C-22581763C020</generatorID>
+<ownerDesignName>P1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>32</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,32,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="State" id="9C633454-948A-E480-5938-DA0F292D0318">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-05 22:24:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[The state of property address.]]></commentInRDBMS>
+<generatorID>D82E135D-78AE-F03F-C0D1-18C4EAD22F2D</generatorID>
+<ownerDesignName>P1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="City" id="AFC22B4C-52AC-3C9D-AA0D-20AD3A425383">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-05 22:24:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[The city of property address.]]></commentInRDBMS>
+<generatorID>0CA6A2AB-1EBB-B7AF-C030-9AE01E4DC2E6</generatorID>
+<ownerDesignName>P1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Address" id="5A25EB06-E906-1442-097E-B3C08F2B18DE">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-05 22:24:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[The detailed address of the property.]]></commentInRDBMS>
+<generatorID>99AF6DBA-5A17-14EF-7DF0-CDC75A7CCB14</generatorID>
+<ownerDesignName>P1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zipcode" id="CF20AD10-DD57-0AD0-AE7E-8AC244F892DF">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-05 22:24:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[The zipcode of the property address.]]></commentInRDBMS>
+<generatorID>967385A7-7197-D709-162E-A471DF5A04EE</generatorID>
+<ownerDesignName>P1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="631F3B25-4F4E-9E49-9E22-0B3D308F3ABB" name="AW_PROPERTY_PK">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-05 22:24:00 UTC</createdTime>
+<generatorID>38091346-B56C-4838-3000-FABADE24D29D</generatorID>
+<ownerDesignName>P1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC592E9B-4E59-4B22-1CAB-FA4D1AC50C9C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

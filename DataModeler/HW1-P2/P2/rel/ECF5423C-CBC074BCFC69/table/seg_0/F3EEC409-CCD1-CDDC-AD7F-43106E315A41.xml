@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F3EEC409-CCD1-CDDC-AD7F-43106E315A41" name="AW_Airline">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 15:36:19 UTC</createdTime>
+<generatorID>62A2BD5D-FED3-15C2-8834-D9D037025356</generatorID>
+<ownerDesignName>P2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Airline_id" id="E19B25AA-C7C3-D836-7EA3-120BD1E36AA4">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 15:36:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[The unique airline  id code.]]></commentInRDBMS>
+<generatorID>E00936C3-A371-4979-F6F1-F5F43A739968</generatorID>
+<ownerDesignName>P2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Airline_name" id="0D89C627-D45C-EA7C-8F71-D051EA0253ED">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 15:36:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[Airline name.]]></commentInRDBMS>
+<generatorID>3B8E0830-8E6C-CD4E-A5D0-0D2057F29422</generatorID>
+<ownerDesignName>P2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D8A56DBD-BBF6-81B5-7C54-C653FF218220" name="AW_Airline_PK">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 15:36:19 UTC</createdTime>
+<generatorID>FB0150CD-6747-866B-F9C6-25DB95A6347B</generatorID>
+<ownerDesignName>P2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E19B25AA-C7C3-D836-7EA3-120BD1E36AA4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

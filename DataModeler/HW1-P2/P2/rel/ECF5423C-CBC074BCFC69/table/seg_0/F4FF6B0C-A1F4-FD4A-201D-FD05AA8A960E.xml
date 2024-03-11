@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F4FF6B0C-A1F4-FD4A-201D-FD05AA8A960E" name="AW_FLIGHT">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 15:36:19 UTC</createdTime>
+<generatorID>10F5305E-F7F0-D33F-9395-11998ED58333</generatorID>
+<ownerDesignName>P2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Flight_id" id="0E2EC216-806E-4FA0-1495-969FCE683D45">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 15:36:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[The unique flight id,]]></commentInRDBMS>
+<generatorID>32EE8842-B338-2055-E2DA-A6A598F5A884</generatorID>
+<ownerDesignName>P2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AW_Airline_Airline_id" id="E69112DB-8D18-2737-E117-6F765BB869A1">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 15:36:19 UTC</createdTime>
+<generatorID>6C26D7AB-F4B1-17F9-0B8B-C173C25201F9</generatorID>
+<ownerDesignName>P2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FB878384-2D61-137A-64A0-25F4187918A4" referredColumn="E19B25AA-C7C3-D836-7EA3-120BD1E36AA4"/>
+</associations>
+</Column>
+<Column name="Dcode" id="D00F1F12-31FA-2202-E6AE-4B8D8C0D7C32">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 15:36:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[The departuring airport code.]]></commentInRDBMS>
+<generatorID>7367455A-2F19-9BEA-9863-77941CAF6376</generatorID>
+<ownerDesignName>P2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="28EECF38-AF92-BA6E-3734-5CD2D1EE822A" referredColumn="0C7C5F95-B84C-E4C4-64FE-27C841DB6104"/>
+</associations>
+</Column>
+<Column name="Acode" id="225D0CE2-7E95-C11E-FDB9-97F5DD9E636A">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 15:36:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[The arriving airport code.]]></commentInRDBMS>
+<generatorID>D4F43C6E-273E-8736-BBB9-62727C9D4696</generatorID>
+<ownerDesignName>P2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F7A1D8C1-E2E4-4CEA-0E69-AFF966AEB086" referredColumn="0C7C5F95-B84C-E4C4-64FE-27C841DB6104"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E499CEE6-1993-8B14-CCD5-5968A3026FCD" name="AW_FLIGHT_PK">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 15:36:19 UTC</createdTime>
+<generatorID>F8B1383C-B902-735B-AD8F-489B901FF964</generatorID>
+<ownerDesignName>P2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E2EC216-806E-4FA0-1495-969FCE683D45"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B9D9F3C5-A34A-49B4-AEDD-687AF3E73382" name="Airline_FK">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 15:36:19 UTC</createdTime>
+<generatorID>0F134E0F-0FE4-F21C-93A3-3B8C1D9AC1A1</generatorID>
+<ownerDesignName>P2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E69112DB-8D18-2737-E117-6F765BB869A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="43D1D6C8-F729-6753-88DD-C48B230A86EE" name="AW_FLIGHT_AW_AIRPORT_FK">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 15:36:19 UTC</createdTime>
+<generatorID>E4CEDFFA-D87A-616E-CB28-96D6984FFBB8</generatorID>
+<ownerDesignName>P2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="225D0CE2-7E95-C11E-FDB9-97F5DD9E636A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B9DAC69F-39C4-27BD-59F9-34DEA002FC74" name="AW_FLIGHT_AW_AIRPORT_FKv2">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 15:36:19 UTC</createdTime>
+<generatorID>D4D33115-9516-7CEE-36AC-AFC0E3978537</generatorID>
+<ownerDesignName>P2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D00F1F12-31FA-2202-E6AE-4B8D8C0D7C32"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

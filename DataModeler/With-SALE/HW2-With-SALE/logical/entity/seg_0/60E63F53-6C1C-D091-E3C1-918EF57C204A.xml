@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="60E63F53-6C1C-D091-E3C1-918EF57C204A" name="AW_TRANSACTION">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-02 05:05:00 UTC</createdTime>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<engineerTo>
+<item key="0DEFE818-B138-EC98-E57E-B28BE7A902BA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<generateDiscrimColumn>true</generateDiscrimColumn>
+<discriminatorAttributeID>4FDE814A-3479-9C6B-6349-AF5C4992F0E5</discriminatorAttributeID>
+<completeSubtypes>true</completeSubtypes>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Transaction_id" id="D4ED43C6-0ABB-2FF6-22F4-139B9AA51E2C">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-02 05:06:10 UTC</createdTime>
+<commentInRDBMS><![CDATA[The unique transaction id.]]></commentInRDBMS>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<engineerTo>
+<item key="0DEFE818-B138-EC98-E57E-B28BE7A902BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Transaction_type" id="4FDE814A-3479-9C6B-6349-AF5C4992F0E5">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-05 22:18:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[Transaction type: S(ale) or P(urchase)]]></commentInRDBMS>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<engineerTo>
+<item key="0DEFE818-B138-EC98-E57E-B28BE7A902BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Transaction_date" id="02AEBECB-D8C8-0F47-C1D2-B34ED5ABA27B">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-02 05:06:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[The date of transaction.]]></commentInRDBMS>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<engineerTo>
+<item key="0DEFE818-B138-EC98-E57E-B28BE7A902BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Transaction_amount" id="6822A1D1-017F-8AA3-EDEE-B51D5D3CDC9E">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-02 05:15:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[The amount of transaction in USD.]]></commentInRDBMS>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<engineerTo>
+<item key="0DEFE818-B138-EC98-E57E-B28BE7A902BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>32</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,32,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Customer_id" id="F9D1575A-187C-550A-3761-F7B8501D12EE">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-05 22:23:44 UTC</createdTime>
+<generatorID>5E3AC2E3-0C46-23B5-C985-49694BF7E41B</generatorID>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<engineerTo>
+<item key="0DEFE818-B138-EC98-E57E-B28BE7A902BA" value="true"/>
+</engineerTo>
+<referedAttribute>C985968B-9C4A-4155-CDA9-5D24F1987FA2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Property_id" id="C67A8CE9-3168-0304-09C4-4F088060E36D">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 01:14:59 UTC</createdTime>
+<generatorID>32CA7979-8153-F162-310F-FAA04EEF989C</generatorID>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<engineerTo>
+<item key="0DEFE818-B138-EC98-E57E-B28BE7A902BA" value="true"/>
+</engineerTo>
+<referedAttribute>E172EBC4-B525-06C3-99C8-989653463C8B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D25A4963-7945-DA65-C115-06C9ACBC2820" name="COSTOMER_PROPERTY PK">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-02 05:06:29 UTC</createdTime>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="0DEFE818-B138-EC98-E57E-B28BE7A902BA" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D4ED43C6-0ABB-2FF6-22F4-139B9AA51E2C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

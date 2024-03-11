@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D796B9D3-A069-EFAF-8657-7D0B2FA7AE7E" name="AW_CONDO">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 16:56:15 UTC</createdTime>
+<generatorID>568FB663-58D6-C404-286C-E118DD4CECA2</generatorID>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Transaction_id" id="E3FC7363-99F8-B765-823C-46865107D927">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 16:56:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[The unique transaction id.]]></commentInRDBMS>
+<generatorID>D4ED43C6-0ABB-2FF6-22F4-139B9AA51E2C</generatorID>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F0067EA6-64AF-3114-5306-927DB26727B6" referredColumn="3D2ADD24-BCD8-3FCB-2BED-808170D88094"/>
+</associations>
+</Column>
+<Column name="M_fees" id="A76E9BBC-428B-9A10-4893-C3645AAB6076">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 16:56:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[Maintenance Fees of the condo]]></commentInRDBMS>
+<generatorID>6F529A6D-9817-98F5-12D1-672FB8F85094</generatorID>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rent_perm" id="CF38030A-9E6C-4D96-5A39-EAE7A313C121">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 16:56:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[Whether rent is permitted
+Y(es)
+N(o)]]></commentInRDBMS>
+<generatorID>563EE313-C920-066D-F344-B7F94A64C8CC</generatorID>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="635C775B-72CA-1811-740F-6AFD10DA6A83" name="AW_CONDO_PK">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 16:56:15 UTC</createdTime>
+<generatorID>D25A4963-7945-DA65-C115-06C9ACBC2820</generatorID>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3FC7363-99F8-B765-823C-46865107D927"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E900F7AB-9940-85A3-862A-6DA1B24FC55E" name="SALE_FKv2">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 16:56:15 UTC</createdTime>
+<generatorID>E2EB2044-8B7F-DFEC-4618-11054809BE33</generatorID>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3FC7363-99F8-B765-823C-46865107D927"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

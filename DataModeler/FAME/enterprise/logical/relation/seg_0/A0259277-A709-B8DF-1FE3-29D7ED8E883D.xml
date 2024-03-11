@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_PERFORMANCES_INVOICES" directorySegmentName="seg_0" id="A0259277-A709-B8DF-1FE3-29D7ED8E883D">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-02-23 01:25:50 UTC</createdTime>
+<ownerDesignName>enterprise</ownerDesignName>
+<engineerTo>
+<item key="01B4F61A-73CF-165C-B10C-BC8ED0BEBA84" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EB54C489-300C-FBE7-B503-4A8D761C9671</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>C57F6E83-C3A8-63FC-346E-934B9A0AFF0F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

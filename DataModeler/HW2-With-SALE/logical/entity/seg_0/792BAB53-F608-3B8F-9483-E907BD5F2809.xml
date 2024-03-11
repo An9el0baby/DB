@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="792BAB53-F608-3B8F-9483-E907BD5F2809" name="AW_APARTMENT">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 02:45:33 UTC</createdTime>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<engineerTo>
+<item key="0DEFE818-B138-EC98-E57E-B28BE7A902BA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>60E63F53-6C1C-D091-E3C1-918EF57C204A</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<discriminatorValue>A</discriminatorValue>
+<completeSubtypes>true</completeSubtypes>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Pet_perm" id="3422717F-7089-6CA7-72DF-802694902198">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 02:46:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[Whether pet is permitted
+Y(es)
+N(o)]]></commentInRDBMS>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<engineerTo>
+<item key="0DEFE818-B138-EC98-E57E-B28BE7A902BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Utility_fees" id="EED635A1-F026-1ADE-F93D-52B3E0C6EFE4">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 02:45:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[The utility fees of the apartment in USD.]]></commentInRDBMS>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<engineerTo>
+<item key="0DEFE818-B138-EC98-E57E-B28BE7A902BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Agent_fees" id="DD11F411-9B39-265D-7644-6B24234E2781">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 16:26:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[The agent fees in USD.]]></commentInRDBMS>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<engineerTo>
+<item key="0DEFE818-B138-EC98-E57E-B28BE7A902BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

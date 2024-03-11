@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B590EFE2-397E-EDAD-23A2-1E9036F85BAF" name="AW_INDIVIDUAL">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 02:08:43 UTC</createdTime>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<engineerTo>
+<item key="0DEFE818-B138-EC98-E57E-B28BE7A902BA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>6275853C-0E45-0A8F-B7B6-AF19CC4735DD</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<discriminatorValue>I</discriminatorValue>
+<completeSubtypes>true</completeSubtypes>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="First_name" id="63DE78A4-20F9-8601-E338-34ACAC4705FF">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 02:08:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[The first name of customer.]]></commentInRDBMS>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<engineerTo>
+<item key="0DEFE818-B138-EC98-E57E-B28BE7A902BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Last_name" id="131B5152-A93C-753F-7C17-DDBA095BBE89">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 02:09:27 UTC</createdTime>
+<commentInRDBMS><![CDATA[The last name of the customer.]]></commentInRDBMS>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<engineerTo>
+<item key="0DEFE818-B138-EC98-E57E-B28BE7A902BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

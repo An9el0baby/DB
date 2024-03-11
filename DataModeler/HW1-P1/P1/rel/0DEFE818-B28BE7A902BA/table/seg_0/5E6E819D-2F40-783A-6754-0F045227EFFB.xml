@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5E6E819D-2F40-783A-6754-0F045227EFFB" name="AW_TRANSACTION">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-05 22:24:00 UTC</createdTime>
+<generatorID>60E63F53-6C1C-D091-E3C1-918EF57C204A</generatorID>
+<ownerDesignName>P1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Transaction_id" id="A903CEFD-2087-A050-0E4B-2859AFBB7B12">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-05 22:24:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[The unique transaction id.]]></commentInRDBMS>
+<generatorID>D4ED43C6-0ABB-2FF6-22F4-139B9AA51E2C</generatorID>
+<ownerDesignName>P1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Transaction_type" id="32A62870-6E03-AC2D-F6BF-4E3E6FC1ADDD">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-05 22:24:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[Transaction type: Sale or Purchase]]></commentInRDBMS>
+<generatorID>4FDE814A-3479-9C6B-6349-AF5C4992F0E5</generatorID>
+<ownerDesignName>P1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Transaction_date" id="E4FDC704-1B45-5B5E-876C-C4CCC5B67E50">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-05 22:24:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[The date of transaction.]]></commentInRDBMS>
+<generatorID>02AEBECB-D8C8-0F47-C1D2-B34ED5ABA27B</generatorID>
+<ownerDesignName>P1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Transaction_amount" id="895D58D6-7A37-6199-B09F-0B47B61F5483">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-05 22:24:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[The amount of transaction in USD.]]></commentInRDBMS>
+<generatorID>6822A1D1-017F-8AA3-EDEE-B51D5D3CDC9E</generatorID>
+<ownerDesignName>P1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>32</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,32,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Customer_id" id="F1556828-CBF5-80CD-B49B-6B9A99A161EF">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-05 22:24:00 UTC</createdTime>
+<generatorID>F9D1575A-187C-550A-3761-F7B8501D12EE</generatorID>
+<ownerDesignName>P1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DAE9DA27-5DC7-DE9B-FA90-77230B9EAAF7" referredColumn="C3D0360C-76B0-91DB-DB8B-FBFA0C3A34E1"/>
+</associations>
+</Column>
+<Column name="Property_id" id="25D06CF1-4022-265F-1F2C-4C9596BF9B92">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-05 22:24:00 UTC</createdTime>
+<generatorID>F7A8C011-52A7-69F6-CEC5-BE58038C6CF8</generatorID>
+<ownerDesignName>P1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9CFD5E3A-9051-4687-C75F-B9D3B3388808" referredColumn="CC592E9B-4E59-4B22-1CAB-FA4D1AC50C9C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C2A32151-7961-7809-A841-060D7EA6FA79" name="AW_TRANSACTION_PK">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-05 22:24:00 UTC</createdTime>
+<generatorID>D25A4963-7945-DA65-C115-06C9ACBC2820</generatorID>
+<ownerDesignName>P1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A903CEFD-2087-A050-0E4B-2859AFBB7B12"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7E0A99C9-F091-81C1-AAE8-1D0AFEF426F9" name="CUSTOMER_FK">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-05 22:24:00 UTC</createdTime>
+<generatorID>5E3AC2E3-0C46-23B5-C985-49694BF7E41B</generatorID>
+<ownerDesignName>P1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1556828-CBF5-80CD-B49B-6B9A99A161EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5E112179-54FC-5C3B-17A9-3A54ECE900BF" name="PROPERTY_FK">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-05 22:24:00 UTC</createdTime>
+<generatorID>32CA7979-8153-F162-310F-FAA04EEF989C</generatorID>
+<ownerDesignName>P1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="25D06CF1-4022-265F-1F2C-4C9596BF9B92"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

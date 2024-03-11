@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="71260A41-DC9A-CE25-A05E-9B4A07147DAE" name="AW_CHE_PROJ_EQUIP">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-25 15:47:09 UTC</createdTime>
+<ownerDesignName>Midterm</ownerDesignName>
+<engineerTo>
+<item key="4DE3ED35-DC1F-A36D-8D94-7E365E63B58F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="1E090122-B150-C0F8-B77C-3DE11DB12BBF">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-25 16:45:01 UTC</createdTime>
+<ownerDesignName>Midterm</ownerDesignName>
+<engineerTo>
+<item key="4DE3ED35-DC1F-A36D-8D94-7E365E63B58F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ASSIGNED_DATE" id="FBC94F6E-01AD-41D8-5EA5-4BA368EF6419">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-25 15:47:26 UTC</createdTime>
+<ownerDesignName>Midterm</ownerDesignName>
+<engineerTo>
+<item key="4DE3ED35-DC1F-A36D-8D94-7E365E63B58F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SCHEDULED_DATE" id="0854DF51-9051-191E-CB47-FF73263F8B42">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-25 15:48:09 UTC</createdTime>
+<ownerDesignName>Midterm</ownerDesignName>
+<engineerTo>
+<item key="4DE3ED35-DC1F-A36D-8D94-7E365E63B58F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PROJECT_ID" id="45B0136F-A227-2F68-C655-65560703DE04">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-25 15:50:27 UTC</createdTime>
+<generatorID>88727991-6272-FC52-38DC-85577C0006BA</generatorID>
+<ownerDesignName>Midterm</ownerDesignName>
+<engineerTo>
+<item key="4DE3ED35-DC1F-A36D-8D94-7E365E63B58F" value="true"/>
+</engineerTo>
+<referedAttribute>8C1308E3-1C96-39E3-7806-713C65A4C55A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CHEMIST_ID" id="ED9D6867-620E-0889-2BA6-8E0EB8EE9F2E">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-25 15:50:49 UTC</createdTime>
+<generatorID>04FE84DC-F199-9648-C2F6-E92262CBC994</generatorID>
+<ownerDesignName>Midterm</ownerDesignName>
+<engineerTo>
+<item key="4DE3ED35-DC1F-A36D-8D94-7E365E63B58F" value="true"/>
+</engineerTo>
+<referedAttribute>D0D1CB77-A109-F632-C28A-6EE5F39106BB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EQUIPMENT_ID" id="57A3FCEE-D8BD-DF24-592A-392AEB6F8816">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-25 15:51:15 UTC</createdTime>
+<generatorID>5A17BE75-12E6-6D65-8178-EB54A2085EAC</generatorID>
+<ownerDesignName>Midterm</ownerDesignName>
+<engineerTo>
+<item key="4DE3ED35-DC1F-A36D-8D94-7E365E63B58F" value="true"/>
+</engineerTo>
+<referedAttribute>1F1546EF-1439-A118-6A48-81CCF8563D13</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4D94E79E-9441-E29A-E5B4-2C5FDC700B35" name="AW_CHE_PROJ_EQUIP PK">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-25 16:45:08 UTC</createdTime>
+<ownerDesignName>Midterm</ownerDesignName>
+<engineerTo>
+<item key="4DE3ED35-DC1F-A36D-8D94-7E365E63B58F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1E090122-B150-C0F8-B77C-3DE11DB12BBF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="10F5305E-F7F0-D33F-9395-11998ED58333" name="AW_FLIGHT">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-03 02:02:29 UTC</createdTime>
+<ownerDesignName>P2</ownerDesignName>
+<engineerTo>
+<item key="ECF5423C-247B-AA1B-73B4-CBC074BCFC69" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Flight_id" id="32EE8842-B338-2055-E2DA-A6A598F5A884">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-03 02:26:23 UTC</createdTime>
+<commentInRDBMS><![CDATA[The unique flight id,]]></commentInRDBMS>
+<ownerDesignName>P2</ownerDesignName>
+<engineerTo>
+<item key="ECF5423C-247B-AA1B-73B4-CBC074BCFC69" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Airline_id" id="6C26D7AB-F4B1-17F9-0B8B-C173C25201F9">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-03 03:49:41 UTC</createdTime>
+<generatorID>0F134E0F-0FE4-F21C-93A3-3B8C1D9AC1A1</generatorID>
+<ownerDesignName>P2</ownerDesignName>
+<engineerTo>
+<item key="ECF5423C-247B-AA1B-73B4-CBC074BCFC69" value="true"/>
+</engineerTo>
+<referedAttribute>E00936C3-A371-4979-F6F1-F5F43A739968</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Airport_Code" id="7367455A-2F19-9BEA-9863-77941CAF6376">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 15:35:21 UTC</createdTime>
+<generatorID>D4D33115-9516-7CEE-36AC-AFC0E3978537</generatorID>
+<ownerDesignName>P2</ownerDesignName>
+<engineerTo>
+<item key="ECF5423C-247B-AA1B-73B4-CBC074BCFC69" value="true"/>
+</engineerTo>
+<referedAttribute>28BD42FC-2165-580E-6787-A845AA6F2863</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Airport_Code1" id="D4F43C6E-273E-8736-BBB9-62727C9D4696">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 15:35:45 UTC</createdTime>
+<generatorID>E4CEDFFA-D87A-616E-CB28-96D6984FFBB8</generatorID>
+<ownerDesignName>P2</ownerDesignName>
+<engineerTo>
+<item key="ECF5423C-247B-AA1B-73B4-CBC074BCFC69" value="true"/>
+</engineerTo>
+<referedAttribute>28BD42FC-2165-580E-6787-A845AA6F2863</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F8B1383C-B902-735B-AD8F-489B901FF964" name="AW_FLIGHT PK">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-03 02:30:33 UTC</createdTime>
+<ownerDesignName>P2</ownerDesignName>
+<engineerTo>
+<item key="ECF5423C-247B-AA1B-73B4-CBC074BCFC69" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>32EE8842-B338-2055-E2DA-A6A598F5A884</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

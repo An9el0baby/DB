@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_MANAGERS_ADMINISTRATIVE_ASSISTANTS" directorySegmentName="seg_0" id="66E2E372-0DBE-764D-6414-D9E2270160C4">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-02-23 00:54:26 UTC</createdTime>
+<ownerDesignName>enterprise</ownerDesignName>
+<engineerTo>
+<item key="01B4F61A-73CF-165C-B10C-BC8ED0BEBA84" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>476C07AC-7E09-968A-F7AA-4DD2663D2266</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>7C2B0E8A-E4B9-9A2D-7AD9-511CFC658547</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

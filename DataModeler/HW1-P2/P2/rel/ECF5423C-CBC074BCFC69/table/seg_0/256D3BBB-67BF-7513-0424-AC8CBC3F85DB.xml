@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="256D3BBB-67BF-7513-0424-AC8CBC3F85DB" name="AW_EVENT">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 15:36:19 UTC</createdTime>
+<generatorID>43F02211-B595-EFDD-4DF4-5BC414E3759A</generatorID>
+<ownerDesignName>P2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Event_id" id="0BF8FCAA-8754-68CB-2310-524BBD4CFF8E">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 15:36:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[The unique flight event id.]]></commentInRDBMS>
+<generatorID>68B531EA-9EDC-B574-8D90-51868CEF17F8</generatorID>
+<ownerDesignName>P2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dept_date" id="D3B0C9E1-E6A0-343F-E668-B4AC9EC70FC1">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 15:36:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[The departure date.]]></commentInRDBMS>
+<generatorID>6A4F4605-435B-B252-D406-D8C86705F67E</generatorID>
+<ownerDesignName>P2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Arrv_date" id="19AAC6A2-87E9-CE46-AC39-6BA84E5CF2BA">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 15:36:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[The arriving date.]]></commentInRDBMS>
+<generatorID>1984AE9B-6FD0-1254-AF2F-1B4ED3E1C7E3</generatorID>
+<ownerDesignName>P2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Boarding_time" id="04AAB3FF-F57A-FF96-963B-AB51C8087EF4">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 15:36:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[The boarding time for the flight event.]]></commentInRDBMS>
+<generatorID>BB2A05C1-3EAF-D41C-E70D-1E46F1B089C7</generatorID>
+<ownerDesignName>P2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Arrv_time" id="1B11E46E-F8E2-9255-E26B-0300D4403BBF">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 15:36:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[The estimated arriving time]]></commentInRDBMS>
+<generatorID>2E19C556-CBE1-A1D6-5C19-471DB4A0F1BC</generatorID>
+<ownerDesignName>P2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Bd_terminal" id="8491DDCA-32AB-395E-7B58-BCB461E559F5">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 15:36:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[The boarding terminal for the flight event.]]></commentInRDBMS>
+<generatorID>869CEA55-C1DB-A78A-EAA6-6A53A194D74C</generatorID>
+<ownerDesignName>P2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Gate" id="21F385E9-145A-A1D8-066D-217339B866D8">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 15:36:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[The boarding gate of the flight event.]]></commentInRDBMS>
+<generatorID>655D79CA-435F-7A70-4A1D-5646F3542223</generatorID>
+<ownerDesignName>P2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Flight_id" id="E0AD6059-A720-0C1F-F406-64A34F36C5A5">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 15:36:19 UTC</createdTime>
+<generatorID>6629B910-BF74-B2FE-F673-B00B377C3BAB</generatorID>
+<ownerDesignName>P2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7ADB0FB7-0160-F6F3-F458-15231878399F" referredColumn="0E2EC216-806E-4FA0-1495-969FCE683D45"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FC43A879-04D9-C2F4-542A-6A483AA3F0B6" name="AW_EVENT_PK">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 15:36:19 UTC</createdTime>
+<generatorID>2883625C-03C2-FF06-971B-C73E9450B9C5</generatorID>
+<ownerDesignName>P2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0BF8FCAA-8754-68CB-2310-524BBD4CFF8E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B709CB2D-98EE-4DF7-DB12-645D63C531C9" name="FLIGHT_FK">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 15:36:19 UTC</createdTime>
+<generatorID>CD4D1CEF-1AE6-42D6-7729-01D0C54C93D5</generatorID>
+<ownerDesignName>P2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E0AD6059-A720-0C1F-F406-64A34F36C5A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

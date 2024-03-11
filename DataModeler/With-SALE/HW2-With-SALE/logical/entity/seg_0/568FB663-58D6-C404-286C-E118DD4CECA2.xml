@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="568FB663-58D6-C404-286C-E118DD4CECA2" name="AW_CONDO">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 02:47:25 UTC</createdTime>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<engineerTo>
+<item key="0DEFE818-B138-EC98-E57E-B28BE7A902BA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>A847016A-8F95-B54D-51AE-A479D4D307AA</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<discriminatorValue>C</discriminatorValue>
+<completeSubtypes>true</completeSubtypes>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="M_fees" id="6F529A6D-9817-98F5-12D1-672FB8F85094">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 02:47:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[Maintenance Fees of the condo]]></commentInRDBMS>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<engineerTo>
+<item key="0DEFE818-B138-EC98-E57E-B28BE7A902BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Rent_perm" id="563EE313-C920-066D-F344-B7F94A64C8CC">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 02:48:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[Whether rent is permitted
+Y(es)
+N(o)]]></commentInRDBMS>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<engineerTo>
+<item key="0DEFE818-B138-EC98-E57E-B28BE7A902BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

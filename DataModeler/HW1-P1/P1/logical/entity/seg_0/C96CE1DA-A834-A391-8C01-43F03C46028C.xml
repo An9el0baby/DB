@@ -1,0 +1,149 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C96CE1DA-A834-A391-8C01-43F03C46028C" name="AW_PROPERTY">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-02 03:57:42 UTC</createdTime>
+<ownerDesignName>P1</ownerDesignName>
+<engineerTo>
+<item key="0DEFE818-B138-EC98-E57E-B28BE7A902BA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Property_id" id="E172EBC4-B525-06C3-99C8-989653463C8B">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-02 04:54:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[Unique Property ID.]]></commentInRDBMS>
+<ownerDesignName>P1</ownerDesignName>
+<engineerTo>
+<item key="0DEFE818-B138-EC98-E57E-B28BE7A902BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Built_Year" id="0ADCD64D-FE8F-F060-514F-0EEB3B099200">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-02 04:58:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[The built year of the property.]]></commentInRDBMS>
+<ownerDesignName>P1</ownerDesignName>
+<engineerTo>
+<item key="0DEFE818-B138-EC98-E57E-B28BE7A902BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Price" id="59B6E7E3-F19D-7EC6-626C-22581763C020">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-02 05:00:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[The price of the property in USD.]]></commentInRDBMS>
+<ownerDesignName>P1</ownerDesignName>
+<engineerTo>
+<item key="0DEFE818-B138-EC98-E57E-B28BE7A902BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>32</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,32,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="State" id="D82E135D-78AE-F03F-C0D1-18C4EAD22F2D">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-03 15:19:13 UTC</createdTime>
+<commentInRDBMS><![CDATA[The state of property address.]]></commentInRDBMS>
+<ownerDesignName>P1</ownerDesignName>
+<engineerTo>
+<item key="0DEFE818-B138-EC98-E57E-B28BE7A902BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="City" id="0CA6A2AB-1EBB-B7AF-C030-9AE01E4DC2E6">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-03 15:19:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[The city of property address.]]></commentInRDBMS>
+<ownerDesignName>P1</ownerDesignName>
+<engineerTo>
+<item key="0DEFE818-B138-EC98-E57E-B28BE7A902BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Address" id="99AF6DBA-5A17-14EF-7DF0-CDC75A7CCB14">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-02 04:56:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[The detailed address of the property.]]></commentInRDBMS>
+<ownerDesignName>P1</ownerDesignName>
+<engineerTo>
+<item key="0DEFE818-B138-EC98-E57E-B28BE7A902BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Zipcode" id="967385A7-7197-D709-162E-A471DF5A04EE">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-03 15:19:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[The zipcode of the property address.]]></commentInRDBMS>
+<ownerDesignName>P1</ownerDesignName>
+<engineerTo>
+<item key="0DEFE818-B138-EC98-E57E-B28BE7A902BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Property_type_id" id="153451C7-B050-4F13-F548-476A8725B109">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 01:22:58 UTC</createdTime>
+<generatorID>9F2619DB-7588-8CCA-2224-A9D68CCCFE37</generatorID>
+<ownerDesignName>P1</ownerDesignName>
+<engineerTo>
+<item key="0DEFE818-B138-EC98-E57E-B28BE7A902BA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>1663852B-4B5C-81A0-D857-68F8AFF55028</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="38091346-B56C-4838-3000-FABADE24D29D" name="AW_PROPERTY PK">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-02 04:54:55 UTC</createdTime>
+<ownerDesignName>P1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="0DEFE818-B138-EC98-E57E-B28BE7A902BA" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E172EBC4-B525-06C3-99C8-989653463C8B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

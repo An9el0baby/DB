@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="91378E4F-C86E-8AF2-8830-5B4137D46652" name="AW_CORPORATE">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 16:56:15 UTC</createdTime>
+<generatorID>9E3F11C6-CF90-C4C9-F108-C9444FEDEA4E</generatorID>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Customer_id" id="3B9F522B-EBA7-4468-B999-ABC95BFE5DD9">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 16:56:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[Unique Customer ID]]></commentInRDBMS>
+<generatorID>C985968B-9C4A-4155-CDA9-5D24F1987FA2</generatorID>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4E1E5D9A-220F-81EA-581F-517B36659F5A" referredColumn="E434A1D5-95D4-FD49-E260-18C3A49F81F7"/>
+</associations>
+</Column>
+<Column name="Company_name" id="B25FA2BF-34F9-B075-9BB8-D84883A71075">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 16:56:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[The company of the corporate]]></commentInRDBMS>
+<generatorID>3A38B8D6-49A1-503C-A62E-A52DB59FDD4F</generatorID>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="01E478A8-8946-E24D-DD05-E21B9210E405" name="AW_CORPORATE_PK">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 16:56:15 UTC</createdTime>
+<generatorID>E37A780D-40D7-E0A8-7B5E-353DBBF8C262</generatorID>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B9F522B-EBA7-4468-B999-ABC95BFE5DD9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0013FDB1-2E32-4203-C5A4-4E32EA632279" name="CUSTOMER_FK">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 16:56:15 UTC</createdTime>
+<generatorID>478B3FD5-EB29-1922-9224-3BD158A143EC</generatorID>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B9F522B-EBA7-4468-B999-ABC95BFE5DD9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

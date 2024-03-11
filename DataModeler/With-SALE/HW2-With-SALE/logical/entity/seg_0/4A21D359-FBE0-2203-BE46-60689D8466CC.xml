@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4A21D359-FBE0-2203-BE46-60689D8466CC" name="AW_AGENT">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 16:12:29 UTC</createdTime>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<engineerTo>
+<item key="0DEFE818-B138-EC98-E57E-B28BE7A902BA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Agent_id" id="B4DE5AC1-A7A0-DF1D-AC94-77C66F55E384">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 16:13:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[The unqiue agent id.]]></commentInRDBMS>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<engineerTo>
+<item key="0DEFE818-B138-EC98-E57E-B28BE7A902BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Agent_fname" id="5390E02A-1A2A-DA6E-8676-A877EA0D3304">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 16:14:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[The first name of agent.]]></commentInRDBMS>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<engineerTo>
+<item key="0DEFE818-B138-EC98-E57E-B28BE7A902BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Agent_lname" id="4D377411-29F2-71ED-11B6-23D286912F26">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 16:14:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[The last name of the agent.]]></commentInRDBMS>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<engineerTo>
+<item key="0DEFE818-B138-EC98-E57E-B28BE7A902BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="084AF582-F498-BD35-DCE5-51357CC09B14" name="AW_AGENT PK">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 16:14:05 UTC</createdTime>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<engineerTo>
+<item key="0DEFE818-B138-EC98-E57E-B28BE7A902BA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B4DE5AC1-A7A0-DF1D-AC94-77C66F55E384</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

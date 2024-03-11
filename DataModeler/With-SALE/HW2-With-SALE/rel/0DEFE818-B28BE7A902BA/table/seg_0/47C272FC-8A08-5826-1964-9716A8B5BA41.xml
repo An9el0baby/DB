@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="47C272FC-8A08-5826-1964-9716A8B5BA41" name="AW_TOWNHOUSE">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 16:56:15 UTC</createdTime>
+<generatorID>DBE9FD69-B8D4-95F7-2E54-FE7CD147C6EB</generatorID>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Transaction_id" id="593B592A-1FF0-C50E-55B6-F1E32CA950D4">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 16:56:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[The unique transaction id.]]></commentInRDBMS>
+<generatorID>D4ED43C6-0ABB-2FF6-22F4-139B9AA51E2C</generatorID>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EBE2ACCE-8862-8351-E75B-66327C1C1414" referredColumn="3D2ADD24-BCD8-3FCB-2BED-808170D88094"/>
+</associations>
+</Column>
+<Column name="M_fees" id="BE247C84-DC7D-6A94-473F-73E9269D0D2E">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 16:56:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[The  maintenance fees of the townhosue]]></commentInRDBMS>
+<generatorID>D72E252A-3C30-D00B-857C-CFD6E238BA2B</generatorID>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Club_access" id="355DA3B8-C4BC-0FED-400C-94A7B82C8C5A">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 16:56:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[Whether has the club access
+Y(es)
+N(o)]]></commentInRDBMS>
+<generatorID>2078A061-EF54-0F99-0724-E291E2766FAC</generatorID>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D23A41EB-5D0C-183C-C2A8-1C7C65E24A9F" name="AW_TOWNHOUSE_PK">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 16:56:15 UTC</createdTime>
+<generatorID>D25A4963-7945-DA65-C115-06C9ACBC2820</generatorID>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="593B592A-1FF0-C50E-55B6-F1E32CA950D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="74318412-CC08-7CE0-DFE3-29C006C9AADE" name="SALE_FKv3">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 16:56:15 UTC</createdTime>
+<generatorID>8568A042-7EB6-3764-15FB-F70CDFFA211B</generatorID>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="593B592A-1FF0-C50E-55B6-F1E32CA950D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

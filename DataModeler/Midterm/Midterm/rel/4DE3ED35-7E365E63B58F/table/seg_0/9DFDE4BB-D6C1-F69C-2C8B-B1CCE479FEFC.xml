@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9DFDE4BB-D6C1-F69C-2C8B-B1CCE479FEFC" name="AW_EQUIPMENT">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-25 16:46:14 UTC</createdTime>
+<generatorID>0B470BAE-5905-28EE-F0D1-95302372C2D4</generatorID>
+<ownerDesignName>Midterm</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EQUIPMENT_ID" id="5D8A57F6-D1D7-CB28-1456-EAF769027642">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-25 16:46:14 UTC</createdTime>
+<generatorID>1F1546EF-1439-A118-6A48-81CCF8563D13</generatorID>
+<ownerDesignName>Midterm</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EQUIPMENT_NAME" id="494D4A23-54B1-0A3F-C0BB-6A2B6225D010">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-25 16:46:14 UTC</createdTime>
+<generatorID>33A95705-F568-0953-4E07-D003E115A3EF</generatorID>
+<ownerDesignName>Midterm</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QUANTITY" id="67FFF97C-E585-DBB6-CE3C-117825221570">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-25 16:46:14 UTC</createdTime>
+<generatorID>075EA148-A3EC-4C47-371C-E700896D321A</generatorID>
+<ownerDesignName>Midterm</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BB0BA1A1-7F80-C626-676E-3A520910A657" name="AW_EQUIPMENT_PK">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-25 16:46:14 UTC</createdTime>
+<generatorID>728F015D-5073-D237-45C6-B6C81F0FFCFF</generatorID>
+<ownerDesignName>Midterm</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D8A57F6-D1D7-CB28-1456-EAF769027642"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

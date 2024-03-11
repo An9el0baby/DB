@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="6779FD5B-0D1E-D0B9-D90B-B0060F3F53F0" mainViewID="9A962F80-8F7C-00D8-365E-0B9ABD4AFAEE">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-25 14:15:47 UTC</createdTime>
+<ownerDesignName>Midterm</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

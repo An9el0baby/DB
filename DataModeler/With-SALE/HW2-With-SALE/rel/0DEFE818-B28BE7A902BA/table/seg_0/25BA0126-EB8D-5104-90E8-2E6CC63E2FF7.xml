@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="25BA0126-EB8D-5104-90E8-2E6CC63E2FF7" name="AW_PURCHASE">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 16:56:15 UTC</createdTime>
+<generatorID>3B6BDD2B-2E03-B4CB-A336-5627F00CD642</generatorID>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Transaction_id" id="03C6D244-E122-04E7-D97F-202E170E0795">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 16:56:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[The unique transaction id.]]></commentInRDBMS>
+<generatorID>D4ED43C6-0ABB-2FF6-22F4-139B9AA51E2C</generatorID>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="190E418E-CB2D-C6DB-8013-28601ED1E766" referredColumn="8D71BCB9-EEC0-4438-6C6C-45C48DB62203"/>
+</associations>
+</Column>
+<Column name="Inspection_fees" id="51FA78B0-D9A2-ED01-AF80-9D29CFF9493D">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 16:56:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[The insepction fess for the transcation.]]></commentInRDBMS>
+<generatorID>EE9FB261-8507-B396-8841-9A5B398AF418</generatorID>
+<notes><![CDATA[The Fee of Inspection ]]></notes>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Agency_id" id="E0246D35-B023-7619-4234-E0A86AF64F69">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 16:56:15 UTC</createdTime>
+<generatorID>17C51ECB-82BC-CF9A-0D0C-A39CB34EB0B1</generatorID>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D5136FE6-71F3-9615-23A2-5BB20863CE03" referredColumn="D24D978E-7DEE-AC85-AB3C-17C77F03B676"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="154489BA-940A-F0F5-2B0B-924B1DA10819" name="AW_PURCHASE_PK">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 16:56:15 UTC</createdTime>
+<generatorID>D25A4963-7945-DA65-C115-06C9ACBC2820</generatorID>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="03C6D244-E122-04E7-D97F-202E170E0795"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="866F8ED1-06D7-37D1-E622-E4CFE3B2D16A" name="TRANSACTION_FK">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 16:56:15 UTC</createdTime>
+<generatorID>7407F23B-3354-B8D6-3A6F-0C0A07CF06A2</generatorID>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="03C6D244-E122-04E7-D97F-202E170E0795"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2D80A2A8-A035-3D84-11D8-4785A64A5006" name="AGENCY_FK">
+<createdBy>angelowu</createdBy>
+<createdTime>2023-03-14 16:56:15 UTC</createdTime>
+<generatorID>3F384D26-CE9F-03F5-3AEE-7393AE510585</generatorID>
+<ownerDesignName>HW2-With-SALE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E0246D35-B023-7619-4234-E0A86AF64F69"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
